@@ -13,7 +13,7 @@
       'defines': [
         'VERSION=0.3.1',
       ],
-      'sources': [ 
+      'sources': [
         'src/atb.cc', 'src/glfw.cc'
       ],
       'include_dirs': [
@@ -30,8 +30,8 @@
         ['OS=="win"', {
           'libraries': [
             'AntTweakBar64.lib',
-            'glew64s.lib', 
-            'glfw3dll.lib', 
+            'glew64s.lib',
+            'glfw3dll.lib',
             'opengl32.lib'
             ],
           'defines' : [

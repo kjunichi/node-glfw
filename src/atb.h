@@ -23,8 +23,8 @@ struct CB {
   char *name;
   CB() : type(0), name(NULL) {}
   ~CB() {
-    getter.Dispose();
-    setter.Dispose();
+    getter.Reset();
+    setter.Reset();
     if(name) free(name);
   }
 };

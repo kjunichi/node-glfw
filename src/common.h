@@ -22,9 +22,9 @@ using namespace v8;
 
 namespace {
 #define JS_STR(...) NanSymbol(__VA_ARGS__)
-#define JS_INT(val) v8::Integer::New(val)
-#define JS_NUM(val) v8::Number::New(val)
-#define JS_BOOL(val) v8::Boolean::New(val)
+#define JS_INT(val) v8::Integer::New(v8::Isolate::GetCurrent(),val)
+#define JS_NUM(val) v8::Number::New(v8::Isolate::GetCurrent(),val)
+#define JS_BOOL(val) v8::Boolean::New(v8::Isolate::GetCurrent(),val)
 #define JS_RETHROW(tc) v8::Local<v8::Value>::New(tc.Exception());
 
 #define REQ_ARGS(N)                                                     \

@@ -3,7 +3,10 @@
   "version": "0.3.1",
   "description": "A NodeJS wrapper around GLFW 3.x library",
   "main": "index.js",
-  "author": "Mikael Bourges-Sevenier <mikeseven@gmail.com>",
+  "author": {
+    "name": "Mikael Bourges-Sevenier",
+    "email": "mikeseven@gmail.com"
+  },
   "keywords": [
     "glfw",
     "opengl",
@@ -12,9 +15,8 @@
   ],
   "maintainers": [
     {
-      "name": "Mikael Bourges-Sevenier",
-      "email": "mikeseven@gmail.com",
-      "twitter": "msevenier"
+      "name": "mikeseven",
+      "email": "mikeseven@gmail.com"
     }
   ],
   "licenses": [
@@ -39,7 +41,26 @@
     "install": "node-gyp rebuild"
   },
   "dependencies": {
-    "bindings": "^1.2.1",
-    "nan": "^0.8.0"
-  }
+    "nan": ">=0.8.0"
+  },
+  "gitHead": "9a7c4cf211b07e6f36c889451e1523eb60c28b33",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/mikeseven/node-glfw/issues"
+  },
+  "homepage": "https://github.com/mikeseven/node-glfw",
+  "_id": "node-glfw@0.3.1",
+  "_shasum": "8a7457a3c3a9eccf40aa1a13c9effd4bf5ae7364",
+  "_from": "node-glfw@>=0.3.0",
+  "_npmVersion": "1.4.14",
+  "_npmUser": {
+    "name": "mikeseven",
+    "email": "mikeseven@gmail.com"
+  },
+  "dist": {
+    "shasum": "8a7457a3c3a9eccf40aa1a13c9effd4bf5ae7364",
+    "tarball": "http://registry.npmjs.org/node-glfw/-/node-glfw-0.3.1.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/node-glfw/-/node-glfw-0.3.1.tgz",
+  "readme": "ERROR: No README data found!"
 }
